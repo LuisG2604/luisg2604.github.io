@@ -1,0 +1,70 @@
+/* Luis Gonzalez - ./style.css - TP4 */
+/* Je ne commente pas le CSS parce que c'est beaucoup de choses répétées. */
+
+body{
+    zoom: 200%;
+    background: #80191d;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+#container{
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
+    position: relative;
+    width: 15em;
+    height: 22em;
+    background: #f24444;
+    margin: 1em auto;
+}
+label{
+    user-select: none;
+    color: #d8d8d8;
+    display: block;
+    padding: 1em;
+}
+input[type=number]{
+    border-radius: 5px;
+    color: #d8d8d8;
+    border-style: solid;
+    border-color: #80191d;
+    background: #b13236;
+    margin-left: 35%;
+}
+input[type=checkbox]{
+    cursor: pointer;
+    background: #80191d;
+    margin-right: 1em;
+    transform: scale(2);
+}
+button{
+    color: #d8d8d8;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #80191d;
+    background: #b13236;
+    height: 3em;
+    width: 10em;
+    display: block;
+    margin: 10px auto;
+}
+button:hover{
+    color: #bbbbbb;
+    cursor: pointer;
+    background: #80191d;
+}
+input[type=number]:focus{
+    outline: none;
+}
+#passwordOutput{
+    user-select: text;
+    text-align: center;
+}
+#passwordOutput:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    background: #b13236;
+}
+label:hover{
+    color: #bbbbbb;
+}

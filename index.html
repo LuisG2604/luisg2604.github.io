@@ -1,0 +1,25 @@
+<!-- Luis Gonzalez - ./index.html - TP4 -->
+<!-- Je ne commente pas le HTML parce qu'il n'y a rien d'intéressant ici. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <label id="passwordOutput" onclick="copyPassword()">Mot de Passe</label>
+        <label>Longueur<input type="number" id="lenght" min="5" max="20" value="10"></label>
+        <label><input type="checkbox" id="addUpper" checked="true">Inclus des majuscules</label>
+        <label><input type="checkbox" id="addLower" checked="true">Inclus des minuscules</label>
+        <label><input type="checkbox" id="addNumber" checked="true">Inclus des nombres</label>
+        <label><input type="checkbox" id="addSymbol" checked="true">Inclus des symboles</label>
+        <button id="generateButton" onclick="generatePassword()">Générer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
